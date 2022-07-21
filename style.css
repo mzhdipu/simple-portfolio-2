@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    color: #1E2226;
+    margin: 0;
+}
+h2 {
+    font-weight: bold;
+    font-size: 55px;
+    margin: 0;
+    color: #000000;
+}
+h3{
+    text-align: center;
+    color: #1E2226;
+    font-size: 45px;
+}
+h4{
+    margin: 0;
+}
+p{
+    color: #6A6A6A;
+    margin: 35px 0px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #EC4D7F;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+section{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.banner {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    padding: 100px 0 120px 0;
+}
+.banner .banner-sec {
+    margin-top: 10%;
+}
+.banner-info {
+    margin: 30% 0% 0% 0%;
+}
+.float-left {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+img{
+    width: 100%;
+}
+
+.float-right {
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+}
+.biography .float-right {
+    margin: 5% 5% 0% 0%;
+}
+.biography {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    padding: 100px 0 120px 0;
+    background-position: center center;
+    background-size: cover;
+}
+.work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    padding: 100px 0 120px 0;
+    background-position: center center;
+    background-size: cover;
+}
+.width-3 {
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 6%;
+    float: left;
+}
+
+.client{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    padding: 100px 0 120px 0;
+    background-position: center center;
+    background-size: cover;
+}
+.client-info{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.client-info p {
+    color: #000000;
+    font-size: 18px;
+}
+
+.contact p {
+    margin: 0 0 10px 0px;
+    text-align: center;
+    color: #ffffff;
+}
+.contact {
+    width: 35%;
+    background: #EC4D7F;
+    text-align: center;
+    padding: 40px;
+    margin-left: 30%;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.contact a {
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: inherit;
+    letter-spacing: 2.2px;
+}
+footer p{
+    text-align: center;
+}
